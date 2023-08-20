@@ -45,5 +45,4 @@ let idade = 30;
 let nome = 'Enza'
 console.log(nome === 'Enza' || idade === 25);
 
-let minhaVariavel = true;
-console.log(!minhaVariavel);
+console.log(idade !== 30);
