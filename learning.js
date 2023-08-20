@@ -34,3 +34,8 @@ console.log(soma)
 
 // ex: 3 == '3' (TRUE, pois os VALORES são iguais)
 // ex: 3 === '3' (FALSE, pois os VALORES são iguais, mas não os TIPOS - um NUMBER e uma STRING)
+
+// Lógico
+// Ligados a valores boleanos
+// AND-E (&&) - ambos os valores TEM que ser TRUE (para tirar carteira de motorista você TEM que passar no exame técnico e E na prova de carro) 
+// OR-Ou (||) - um OU outro valor tem que ser TRUE, qualquer um dos valores sendo TRUE, fará o resultado ser TRUE (eu vou viajar sábado OU domingo, mas IREI viajar)
