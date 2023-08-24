@@ -10,20 +10,8 @@ const divino1 = {
   idadeMental: 12,
   raça: 'gigante',
 };
+// Acessa uma chave //
 
-const divino2 = {
-  nome: 'Nott',
-  idadeMental: 80,
-  raça: 'gigante',
-};
-
-const divino3 = {
-  nome: 'Freya',
-  idadeMental: 20,
-  raça: 'Vanir'
-};
-
-// Acessa uma chave
 // Utilizando . =objeto.key
 
 console.log(divino1.idadeMental);
@@ -43,3 +31,9 @@ console.log(divino1['nome']);
 
 divino1.raça = 'Aesir';
 console.log(divino1.raça);
+
+// Adicionar novas Chaves-Valor
+
+divino1.hobbies = ['F*der com os outros', 'Passeios de cavalo', 'Visitas ao mercado negro'];
+divino1.hobbies.push('Saltar fogueira');
+console.log(divino1.hobbies);
