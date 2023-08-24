@@ -36,4 +36,11 @@ console.log(divino1.raça);
 
 divino1.hobbies = ['F*der com os outros', 'Passeios de cavalo', 'Visitas ao mercado negro'];
 divino1.hobbies.push('Saltar fogueira');
-console.log(divino1.hobbies);
+
+// Metodos para objeto
+// keys = chaves
+// values = valores
+// entries = entradsa 
+
+
+console.log(Object.entries(divino1));
